@@ -1,10 +1,10 @@
 import './App.css';
-import FortinetTable from './FortinetTable/fortinetTable'
+import OutageComponent from './OutageData/index'
 
 function App() {
   return (
     <div className="App">
-      <FortinetTable/>
+      <OutageComponent/>
     </div>
   );
 }
