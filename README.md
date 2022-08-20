@@ -1,10 +1,10 @@
 ## Available Scripts
 
+In the project directory, you can run:
+
 ###  `npm i`
 
 Installs dependencies for the project
-
-In the project directory, you can run:
 
 ### `npm start`
 
