@@ -1,52 +1,70 @@
-FortiMonitor Frontend Software Engineer Hiring
-Test
-NOTE: This project should be completed prior to starting your HackerRank test - it appears as
-the final question on the HackerRank test, but you should just need to upload the final result
-when you are in HackerRank. Please read the entire project description in advance (paying
-particular attention to the collaboration section below) and allocate sufficient time to complete
-the project.
-Problem Statement
-A core component of our offering is a monitoring agent that the customers install on their
-servers (physical, virtual, cloud instances like EC2 and Azure VM, etc.) to collect system and
-application metrics from the server. The agent then feeds the results up to our cloud
-environment for processing where we analyze the collected metrics to determine if we need to
-send out alerts, populate dashboards, etc.
-The goal of this task is to build a lightweight frontend app that makes an API call to fetch the
-outage data and render the data in a tabular view. This is by no means intended to be a full
-production-ready application but more a means to explore design issues and see how you
-approach the problem.
-Core Requirements
-Put together an initial implementation satisfying the following:
-• Implemented in Vue, React or Angular (using whichever version you prefer)
-• Fetch data via an API Call.
-o URL – https://api2.panopta.com/v2/outage?api_key=6369950d-c200-47e5-b943-
-06047662e4fa
+# Getting Started with Create React App
 
-• Display the API fetched data inside the table in the order they are retrieved. (Do not
-worry about the styling). Display following fields
-o id (server id or compound service id)
-o server name
-o description
-o start time
-o end time
-o status
-o severity
-o has_active_maintenance
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Additional Considerations
-The following are not required aspects of the solution but are interesting to consider when
-working on your design. Feel free to add stubs for features that could eventually be added or
-come prepared to discuss potential future extensions when we review your solution.
-• Loading state
-• Handle API error
-• Pagination (Server-side vs Client-side)
-Collaborating with FortiMonitor
-The goal of this project is equally to give you an opportunity to collaborate with some of the
-existing FortiMonitor team members as it is seen what code you produce. You should have
-received an invite to a private Slack channel where a number of us will be available to answer
-questions, review design ideas and discuss possible solutions with you. If you have any
-problems connecting to Slack get in touch with Nick for assistance.
-To Submit your Result
-Upload a zip file with your code (using whatever file layout you prefer) and a
-txt or doc file with thoughts on the additional considerations listed above as the answer to the
-final question on the HackerRank test.
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
