@@ -25,6 +25,7 @@ class OutageUser extends React.Component {
 
   async getUserData(url) {
     const res = await axios.get(url).then(res => {
+      console.log(res.data)
       const { meta, outage_list } = res.data;
       this.setState({isLoading: false, userData: outage_list,nextUrl: meta.next, prevUrl: meta.previous, errorState: false})
     }).catch((error, data) => {

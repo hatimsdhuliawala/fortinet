@@ -24,7 +24,7 @@ const displayOutageData = (props) => {
             {userData.map((data, index) => {
               return (
                 <tr key={index}>
-                  <td className="border-styling">{data.server_id}</td>
+                  <td className="border-styling">{data.server_id || data.compound_service_id}</td>
                   <td className="border-styling">{data.server_name}</td>
                   <td className="border-styling">{data.description ? data.description : 'No data Available'}</td>
                   <td className="border-styling">{data.start_time}</td>
