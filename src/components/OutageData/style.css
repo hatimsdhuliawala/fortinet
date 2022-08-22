@@ -1,3 +1,7 @@
 .border-styling{
   border: 1px solid black;
 }
+
+.ongoing-incident{
+  background-color: yellow;
+}
