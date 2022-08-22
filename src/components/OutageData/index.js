@@ -1,3 +1,5 @@
+'use strict';
+
 import React from 'react';
 import axios from 'axios';
 import LoadingStateComponent from './loadingState';
@@ -45,7 +47,6 @@ class OutageUser extends React.Component {
     this.setState({
       isLoading:true,
       errorState: false,
-      currentUrl: 'https://api2.panopta.com/v2/outage?api_key=6369950d-c200-47e5-b943-06047662e4fa'
     }, () => {
       this.getUserData(this.state.currentUrl);
     })
