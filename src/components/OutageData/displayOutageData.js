@@ -31,7 +31,7 @@ const displayOutageData = (props) => {
                   <td className="border-styling">{data.end_time}</td>
                   <td className="border-styling">{data.status}</td>
                   <td className="border-styling">{data.severity}</td>
-                  <td className="border-styling">{data.has_active_maintenance ? 'true' : 'false'}</td>
+                  <td className="border-styling">{data.has_active_maintenance.toString()}</td>
                 </tr>
               )
             })}
